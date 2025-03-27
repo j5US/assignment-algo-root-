@@ -10,7 +10,7 @@ function App() {
     <AuthProvider>
       <TableProvider>
         <SidebarProvider>
-          <Router basename='/assignment-algo-root-/'>
+          <Router>
             <Routes>
               <Route path="/" element={<Auth />} />
               <Route path="/details" element={<Details />} />
