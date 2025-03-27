@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer } from 'react';
-import { TableState, TableAction, TableData } from '../types';
+import { TableState, TableAction } from '../types';
 
 const initialState: TableState = {
   sortField: 'name',

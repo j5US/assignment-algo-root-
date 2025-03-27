@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, User, LogOut, Trash2, SidebarClose } from 'lucide-react';
+import { Menu, User, LogOut, Trash2 } from 'lucide-react';
 import { useAuth } from '../context/AuthContext';
 import { useSidebar } from '../context/SidebarContext';
 
