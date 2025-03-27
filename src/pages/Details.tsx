@@ -65,6 +65,7 @@ export const Details = () => {
   
   const isSmallerScreen = (w: number) => (w < 770) ? isCollapsed ? true : false : true
 
+  // console.log(state.user);
 
   if (state.loading) {
     return (
@@ -73,7 +74,7 @@ export const Details = () => {
       </div>
     );
   }
-
+  
   if (!state.user) {
     return <Navigate to="/" />;
   }
